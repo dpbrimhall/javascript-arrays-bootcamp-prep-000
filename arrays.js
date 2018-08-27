@@ -43,7 +43,7 @@ function removeElementFromBeginningOfArray(array) {
 
 
 function removeElementFromEndOfArray(array) {
-  eightagain = eight.slice(0, eight.length - 1);
+  array.slice(0, eight.length - 1);
   return eightagain
 }
 
