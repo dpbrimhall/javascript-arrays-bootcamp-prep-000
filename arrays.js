@@ -50,6 +50,6 @@ function removeElementFromEndOfArray(array) {
 
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  [1, 2, 3].pop()
+  array = [1, 2, 3].pop()
   return array
 }
