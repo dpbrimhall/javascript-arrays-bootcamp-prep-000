@@ -50,7 +50,7 @@ function removeElementFromEndOfArray(array) {
 
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  var nine = [1, 2, 3];
+  [1, 2, 3];
   nine.pop();
   return nine
 }
