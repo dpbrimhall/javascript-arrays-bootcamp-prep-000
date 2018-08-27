@@ -34,7 +34,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   six.shift();
   return six
 }
-destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])
 
 function removeElementFromBeginningOfArray(array) {
   var seven = [1, 2 ,3];
