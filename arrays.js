@@ -34,24 +34,26 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   six.shift();
   return six
 }
-
+destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])
 
 function removeElementFromBeginningOfArray(array) {
   var seven = [1, 2 ,3];
-  seven.slice(1);
-  return seven
+  sevenagain = seven.slice(1);
+  return sevenagain
 }
 
 
 function removeElementFromEndOfArray(array) {
   var eight = [1, 2, 3];
-  eight.pop(3);
-  return eight
+  eightagain = eight.slice(0, eight.length - 1);
+  return eightagain
 }
 
 
+var nine = [1, 2, 3];
 function destructivelyRemoveElementFromEndOfArray(array) {
   var nine = [1, 2, 3];
-  nine.pop(2);
+  nine.pop();
   return nine
 }
+nine;
