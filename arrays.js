@@ -56,4 +56,3 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   nine.pop(0, 1);
   return nine
 }
-nine;
